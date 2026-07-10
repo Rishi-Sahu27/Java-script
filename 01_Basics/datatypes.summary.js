@@ -41,3 +41,37 @@ console.log(typeof myFunction);
 // type of Null is Object
 //  Return type of Non Primitives is Object
 //  Return type of Functions is ObjectFunction
+
+
+
+
+// ********************* MEMORY *********************** // 
+
+// Stack (Primitive Types) => Changes the Copy of original value AND Heap (Non-Primitive) => Changes the original value
+
+let myYoutubename = "mehucoder"
+let anotherName = myYoutubename
+anotherName = " mehudeveloper"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne={
+    email  : "user@google.com" , 
+    upi : "user@ybl" ,
+}
+
+let userTwo = userOne;
+
+userTwo.email = "rishi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
+
